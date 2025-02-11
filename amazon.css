@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    max-width: 100vw;
+    max-width: 100%vw;
 }
 .nav-bar {
     width: 100%;
@@ -22,7 +22,7 @@ body{
 /* navbar box1 */
 .amazon-logo {
     height: 50px;
-    width: 110px;
+    width: 120px;
     background-image: url("amazon_logo.png");
     background-size: cover;
     position: relative;
@@ -519,11 +519,9 @@ li:hover {
         padding: 5px 0;
         text-align: center;
     }
-
-    .amazon-logo {
-        width: 40px;
+    .amazon-logo img{
+        width: 30px;
         height: auto;
-        margin-bottom: 5px;
     }
 
     .deliver-to, .sign-in, .returns {
